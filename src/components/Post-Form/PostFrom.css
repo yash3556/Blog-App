@@ -1,0 +1,16 @@
+label{
+    margin-right: 15px;
+}
+select{
+    background-color: #1e1e2f;
+    color: white;
+    border: none;
+  
+    border-radius: 5px;
+}
+
+/* Card utility used by post form blocks */
+.cp-card{transition:transform 260ms cubic-bezier(.2,.9,.2,1),box-shadow 260ms cubic-bezier(.2,.9,.2,1);}
+.cp-card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(2,6,23,0.6)}
+
+.cp-field-group{padding:18px;border-radius:10px}

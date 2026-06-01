@@ -1,0 +1,18 @@
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: lightblue;
+}
+button:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+/* Animated button utility */
+.cp-btn{display:inline-flex;align-items:center;justify-content:center;padding:6px 12px;border-radius:6px}
+.cp-btn:hover:enabled{filter:brightness(1.02)}
+.cp-btn:focus{box-shadow:0 6px 18px rgba(99,102,241,0.12)}

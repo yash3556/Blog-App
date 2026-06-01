@@ -1,0 +1,105 @@
+.footerCard{
+    background-color: #020617;
+    width: 100%;
+    min-height: 350px;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  
+    
+
+}
+.footerCard .main{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.BlogPart{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    padding: 10px;
+}
+.logo{
+    margin-bottom: 7px;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    margin-left: 10px;
+   
+}
+
+.footerCard span{
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.BlogParttext{
+    height: 100px;
+    width: 230px;
+}
+
+.Bloglink{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.catagories,.resources,.quickLinks,.newsletter{
+    width: 250px;
+    padding: 10px;
+    
+}
+
+
+
+.catagoriesLogo,.resourcesLogo,.newsletterLogog,.quickLogo{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quicklinks a{
+    color: white;
+    text-decoration: none;
+}
+
+.newsletterText{
+    height: 100px;
+    width: 250px;
+}
+.resourcesLi p{
+    margin-bottom: 10px;
+}
+.catagoriesLi p{
+    margin-bottom: 10px;
+}
+
+.newsletterInput input{
+     height: 35px;
+     width: 180px;
+     background-color: rgba(60, 58, 58, 0.2);
+     outline: none;
+     border: 1px solid white;
+     border-radius: 5px;
+     padding-left: 5px;
+     color: wheat;
+     
+}
+
+.newsletterInput button{
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: white;
+    border: 2px solid white;
+}
